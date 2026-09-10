@@ -1,0 +1,12 @@
+services:
+  tensorflow-serving:
+    image: tensorflow/serving:2.10.1
+    ports:
+      - '8501:8501'
+      - '8500:8500'
+    volumes:
+      - ../serving_model:/models
+      - ./serving_config/models.config:/models/models.config:ro
+    command:
+      - '--model_config_file=/models/models.config'
+      - '--model_config_file_poll_wait_seconds=30'

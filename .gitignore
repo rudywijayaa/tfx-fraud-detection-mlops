@@ -1,0 +1,24 @@
+# Local Python environment and caches
+vmenv/
+__pycache__/
+**/__pycache__/
+.ipynb_checkpoints/
+
+# Temporary runtime files
+*.pyc
+
+# Generated submission archive
+submission/
+
+# Dataset lokal (biasanya berukuran besar dan tidak perlu di-push)
+data/
+**/data/
+
+# Artifacts & Database pipeline TFX (supaya tidak menumpuk di repo)
+*pipeline/
+**/metadata.sqlite
+*.sqlite
+
+# Cache OS (seperti Thumbs.db di Windows)
+Thumbs.db
+.DS_Store
