@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Submission 1: Deteksi Fraud Transaksi Kartu Kredit
 
 Nama: Rudy Wijaya
@@ -63,3 +64,6 @@ Untuk menghentikan service:
 ```powershell
 docker compose -f deployment/docker-compose.serving.yml down
 ```
+=======
+# tfx-fraud-detection-mlops
+>>>>>>> 596f62f687465b3d65a965ce57bd8184b6bbe6e2

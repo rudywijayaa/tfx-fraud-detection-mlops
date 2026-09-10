@@ -1,0 +1,6 @@
+{
+  "builder": "railpack",
+  "packages": {
+    "python": "3.9"
+  }
+}
