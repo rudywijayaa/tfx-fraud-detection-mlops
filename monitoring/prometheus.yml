@@ -10,4 +10,4 @@ scrape_configs:
     scheme: https
     metrics_path: /monitoring/prometheus/metrics
     static_configs:
-      - targets: ['<URL-DEPLOYMENT-RAILWAY-KAMU>']
+      - targets: ['web-production-e377.up.railway.app']
